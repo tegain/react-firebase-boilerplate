@@ -1,0 +1,7 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    "transform-class-properties", // Needed to work with class properties: @doc http://babeljs.io/docs/plugins/transform-class-properties/
+    "transform-object-rest-spread" // Needed for Objects spread operator
+  ]
+}

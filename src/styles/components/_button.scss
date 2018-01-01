@@ -1,0 +1,31 @@
+.button {
+	padding: $m-size $l-size;
+	border: none;
+	border-radius: 2px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	transition: background .3s;
+
+	&--blue {
+		background: $blue;
+
+		&:hover {
+			background: darken($blue, 5%);
+		}
+	}
+
+	&--transparent {
+		background: none;
+	}
+
+	&--ghost {
+		background-color: transparent;
+		border: 1px solid #ccc;
+		color: $dark-gray;
+
+		&:hover {
+			background: #f5f5f5;
+		}
+	}
+}

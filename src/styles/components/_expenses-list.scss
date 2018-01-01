@@ -1,0 +1,23 @@
+.expenses-header {
+	padding: $m-size;
+	display: flex;
+	justify-content: space-between;
+	background: #f7f7f7;
+	border: 1px solid #ddd;
+
+	&__expense,
+	&__amount {
+		color: #666;
+	}
+}
+
+.expenses-list {
+		border: 1px solid #ddd;
+		border-top: none;
+		text-align: center;
+
+	&__empty {
+		padding: $xl-size $m-size;
+		margin: 0;
+	}
+}

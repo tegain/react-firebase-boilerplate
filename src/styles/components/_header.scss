@@ -1,0 +1,60 @@
+.header {
+	background: $dark-blue;
+	padding: $m-size;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__title {
+		margin: 0;
+		color: #fff;
+		font-size: $xl-size;
+		letter-spacing: 1px;
+		line-height: 1;
+
+		span {
+			display: inline-block;
+			position: relative;
+			top: -1rem;
+			margin-left: .5rem;
+			font-size: 1rem;
+			color: $blue;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+			transition: opacity .3s;
+		}
+
+		@media screen and (min-width: $bp-medium) {
+			span {
+				opacity: 0;
+				margin: 0;
+				position: static;
+			}
+
+			&:hover span {
+				opacity: 1;
+			}
+		}
+	}
+
+	&__link {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	&__logout {
+		background: none;
+		border: none;
+		cursor: pointer;
+		padding: $m-size;
+		color: #fff;
+		font-weight: 700;
+		font-size: $m-size;
+
+		&:hover {
+			background: darken($dark-blue, 3%);
+		}
+	}
+}

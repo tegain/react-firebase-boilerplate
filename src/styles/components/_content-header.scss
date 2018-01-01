@@ -1,0 +1,17 @@
+.content-header {
+	background: #f5f5f5;
+	padding: $xl-size 0;
+
+	&__heading {
+		margin: 0;
+		font-weight: 300;
+
+		strong {
+			font-weight: 700;
+		}
+	}
+
+	&__actions {
+		margin-top: $m-size;
+	}
+}

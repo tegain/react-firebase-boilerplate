@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render <AppHeader /> correctly 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="header__container container"
+  >
+    <h1
+      className="header__title"
+    >
+      <Link
+        className="header__link"
+        replace={false}
+        to="/dashboard"
+      >
+        React Firebase boilerplate
+        <span>
+          /dashboard
+        </span>
+      </Link>
+    </h1>
+    <button
+      className="header__logout button button--transparent"
+      onClick={[Function]}
+    >
+      Logout
+    </button>
+  </div>
+</header>
+`;

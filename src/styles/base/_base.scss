@@ -1,0 +1,27 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%; // -> 1rem = 10px
+}
+
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: $m-size;
+	line-height: 1.5;
+	color: $dark-gray;
+	padding-bottom: $m-size;
+}
+
+.is-active {
+	font-weight: bold;
+}
+
+.container {
+	max-width: 80rem;
+	padding: 0 $m-size;
+	margin: 0 auto;
+}

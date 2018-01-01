@@ -1,0 +1,13 @@
+.expenses-form {
+	width: 100%;
+
+	.input-group__item,
+	textarea {
+		margin-right: 0;
+		margin-bottom: $m-size;
+	}
+
+	.input-text {
+		width: 100%;
+	}
+}

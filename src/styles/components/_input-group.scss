@@ -1,0 +1,40 @@
+.input-group {
+	padding: $l-size 0;
+	display: flex;
+	flex-direction: column;
+
+	@media screen and (min-width: $bp-medium) {
+		flex-direction: row;
+	}
+
+	&__item {
+		margin-bottom: $m-size;
+
+		@media screen and (min-width: $bp-medium) {
+			margin-bottom: 0;
+			margin-right: $m-size;
+		}
+	}
+
+	.text-input {
+		padding: $s-size;
+		height: 50px;
+		width: 100%;
+		border: 1px solid #cacccd;
+	}
+
+	textarea {
+		@extend .text-input;
+		height: auto;
+		min-height: 10rem;
+		resize: vertical;
+	}
+
+	select {
+		padding: $s-size;
+		height: 50px;
+		width: 100%;
+		background-color: #fff;
+		border: 1px solid #cacccd;
+	}
+}
