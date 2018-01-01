@@ -1,4 +1,4 @@
-# React Expensify
+# React Firebase boilerplate
 
 ## Dev
 ```
@@ -30,13 +30,10 @@ Basic jest.config.json file
 ```json
 {
   "setupFiles": [
-    // Using polyfill for RequestAnimationFrame
     "raf/polyfill",
-    // Enzyme config file
     "<rootDir>/src/tests/setupTests.js"
   ],
   "snapshotSerializers": [
-    // Used to test snapshots
     "enzyme-to-json/serializer"
   ]
 }
